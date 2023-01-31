@@ -14,7 +14,7 @@ scanner.render(success, error);
 function success(result) {
 
     document.getElementById('result').innerHTML = `
-    <h2>Success!</h2>
+    <h2>Code scanné avec succès</h2>
     <p><a href="${result}">${result}</a></p>
     `;
     // Prints result as a link inside result element
