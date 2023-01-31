@@ -85,3 +85,9 @@ body {
     text-align: center;
     font-size: 1.5rem;
 }
+
+#result {
+    color: var(--mainColor);
+    margin-bottom: 30px;
+    width: 80vw;
+}
