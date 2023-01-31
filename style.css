@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-:root {
+ :root {
     --mainColor: rgb(38, 159, 189);
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 .scan video {
-    width: 90vw;
+    width: 90%;
     height: 100%;
     margin-bottom: 20px;
 }
@@ -50,6 +50,10 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+}
+
+#reader__scan_region {
+    width: 100%;
 }
 
 #reader button {
