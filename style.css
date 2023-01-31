@@ -88,6 +88,14 @@ body {
 
 #result {
     color: var(--mainColor);
-    margin-bottom: 30px;
     width: 80vw;
+}
+
+#result p {
+    font-size: 15px;
+}
+
+#result h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
 }
